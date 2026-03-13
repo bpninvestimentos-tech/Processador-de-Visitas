@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { Layout } from './components/Layout';
 import { ProcessingMode } from './types';
-import { processData } from './services/csvProcessor';
-import { generateDataInsights, smartRepairCSV } from './services/geminiService';
+import { processData } from './services/csv-processor';
+import { generateDataInsights, smartRepairCSV } from './services/gemini-service';
 
 const App: React.FC = () => {
   const [fileContent, setFileContent] = useState<string>('');
