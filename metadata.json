@@ -1,0 +1,5 @@
+{
+  "name": "Social Visit Processor",
+  "description": "Assistant for processing prison unit visit schedules into Google Sheets compatible CSV formats.",
+  "requestFramePermissions": []
+}
